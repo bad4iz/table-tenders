@@ -7,7 +7,7 @@ switch ($routes[2]) {
         $title = 'Крупные тендеры';
         include($_SERVER['DOCUMENT_ROOT'] . "/core/view/pages/header.php");
 
-        include(dirname(__FILE__)  . "/../view/index.html");
+        include(dirname(__FILE__)  . "/../index.html");
         include($_SERVER['DOCUMENT_ROOT'] . "/core/view/pages/footer.php");
 
         if (isset($myFuter)){
